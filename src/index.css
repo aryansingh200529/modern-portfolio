@@ -1,0 +1,10 @@
+@import "tailwindcss";
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Force GPU acceleration on motion elements to prevent stuttering */
+.motion-safe {
+  will-change: transform, opacity;
+}
