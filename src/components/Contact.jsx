@@ -113,10 +113,10 @@ const Contact = () => {
           </div>
 
           <div className="flex gap-6 mb-8">
-            <a href="https://www.linkedin.com/in/aryan-singh-baba0a32b/" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-white transition-all duration-300">
+            <a href="https://github.com/aryansingh200529" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-white transition-all duration-300">
               <FiGithub size={22} />
             </a>
-            <a href="https://linkedin.com/in/aryan-singh" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-white transition-all duration-300">
+            <a href="https://www.linkedin.com/in/aryan-singh-baba0a32b/" target="_blank" rel="noreferrer" className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-amber-500 hover:text-white transition-all duration-300">
               <FiLinkedin size={22} />
             </a>
           </div>
