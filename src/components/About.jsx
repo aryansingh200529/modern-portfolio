@@ -39,7 +39,7 @@ const About = () => {
 
       <div className="max-w-7xl mx-auto relative z-10">
         
-        {/* Section Heading matching FolioFlix UI */}
+        {/* Section Heading */}
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -67,16 +67,16 @@ const About = () => {
           {/* Left Text Column */}
           <motion.div variants={slideLeftVariants} className="space-y-6">
             <h3 className="text-2xl font-bold text-slate-800 leading-snug">
-              Computer Science Graduate & Software Development Engineer.
+              Computer Science Graduate & Software Development Engineer
             </h3>
             <p className="text-slate-600 text-lg leading-relaxed font-light">
-               I am a passionate Full-Stack Software Engineer with a relentless drive for building scalable, high-impact web applications. Specializing in the MERN stack, I thrive at the intersection of logic and creativity—transforming complex engineering challenges into seamless, intuitive user experiences.
+               As a B.Tech graduate in Computer Science and Engineering, I bring a relentless drive for building scalable, high-impact web applications. Specializing in the MERN stack and Next.js, I thrive at the intersection of logic and creativity—transforming complex engineering challenges into seamless, intuitive user experiences.
             </p>
             <p className="text-slate-600 text-lg leading-relaxed font-light">
-              My approach goes beyond just writing clean code. I am deeply invested in system architecture, AI integrations utilizing tools like LangChain, and responsive design with Tailwind CSS. From configuring dynamic local development environments to building decoupled API gateways, my focus is always on delivering production-grade solutions.
+              My approach goes beyond just writing clean code. Having worked on real-world enterprise platforms, I am deeply invested in system architecture, AI integrations utilizing tools like LangChain, and responsive design. From configuring dynamic local development environments to building decoupled API gateways, my focus is always on delivering production-grade solutions.
             </p>
             
-            {/* Highlighted Achievement (FolioFlix styled card) */}
+            {/* Highlighted Achievement */}
             <div className="flex items-start gap-5 p-6 bg-[#F8F9FF] border border-slate-100 rounded-2xl mt-8 shadow-sm">
               <div className="p-4 bg-white rounded-full shadow-sm text-amber-500 flex-shrink-0">
                 <FaAward size={28} />
@@ -84,13 +84,13 @@ const About = () => {
               <div>
                 <h4 className="font-bold text-slate-800 text-lg">Problem Solving & Enterprise Dev</h4>
                 <p className="text-slate-500 mt-1 font-medium text-sm leading-relaxed">
-                  Holding a 5-Star problem-solving rating in Java on HackerRank, backed by hands-on experience transforming enterprise websites and full-stack platforms.
+                  Holding a 5-Star problem-solving rating in Java on HackerRank, backed by hands-on experience redesigning enterprise corporate websites and building full-stack micro-rental platforms.
                 </p>
               </div>
             </div>
           </motion.div>
 
-          {/* Right Skills Grid (FolioFlix Services/Skills Card Style) */}
+          {/* Right Skills Grid */}
           <motion.div variants={slideRightVariants} className="grid grid-cols-1 sm:grid-cols-2 gap-6">
             
             {/* Card 1 */}
@@ -98,8 +98,8 @@ const About = () => {
               <div className="w-14 h-14 bg-violet-50 rounded-full flex items-center justify-center text-violet-600 mb-6 group-hover:bg-violet-600 group-hover:text-white transition-colors duration-300">
                 <FaCode size={24} />
               </div>
-              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-violet-600 transition-colors">Frontend</h4>
-              <p className="text-sm text-slate-500 font-medium leading-relaxed">React.js, Next.js, JavaScript (ES6+), Tailwind CSS, HTML5/CSS3</p>
+              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-violet-600 transition-colors">Frontend Architecture</h4>
+              <p className="text-sm text-slate-500 font-medium leading-relaxed">Building responsive, Server-Side Rendered (SSR) applications with modern UI states and dynamic layouts.</p>
             </motion.div>
 
             {/* Card 2 */}
@@ -107,8 +107,8 @@ const About = () => {
               <div className="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center text-amber-500 mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
                 <FaServer size={24} />
               </div>
-              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-amber-500 transition-colors">Backend</h4>
-              <p className="text-sm text-slate-500 font-medium leading-relaxed">Node.js, Express.js, Java, Python, RESTful API Design</p>
+              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-amber-500 transition-colors">Backend & APIs</h4>
+              <p className="text-sm text-slate-500 font-medium leading-relaxed">Designing decoupled proxy gateways, RESTful architectures, and secure stateless authentication systems.</p>
             </motion.div>
 
             {/* Card 3 */}
@@ -116,8 +116,8 @@ const About = () => {
               <div className="w-14 h-14 bg-amber-50 rounded-full flex items-center justify-center text-amber-500 mb-6 group-hover:bg-amber-500 group-hover:text-white transition-colors duration-300">
                 <FaDatabase size={24} />
               </div>
-              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-amber-500 transition-colors">Databases & Tools</h4>
-              <p className="text-sm text-slate-500 font-medium leading-relaxed">MongoDB, SQL, Git, GitHub, Vercel, Postman</p>
+              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-amber-500 transition-colors">Data & Cloud</h4>
+              <p className="text-sm text-slate-500 font-medium leading-relaxed">Structuring high-throughput databases, optimizing queries, and managing seamless deployment pipelines.</p>
             </motion.div>
 
             {/* Card 4 */}
@@ -125,8 +125,8 @@ const About = () => {
               <div className="w-14 h-14 bg-violet-50 rounded-full flex items-center justify-center text-violet-600 mb-6 group-hover:bg-violet-600 group-hover:text-white transition-colors duration-300">
                 <FaBrain size={24} />
               </div>
-              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-violet-600 transition-colors">Architecture</h4>
-              <p className="text-sm text-slate-500 font-medium leading-relaxed">System Design, LangChain, Cloud Integrations, Agile Dev</p>
+              <h4 className="font-bold text-slate-800 text-xl mb-3 group-hover:text-violet-600 transition-colors">CS & AI Integration</h4>
+              <p className="text-sm text-slate-500 font-medium leading-relaxed">Applying solid LLD principles and integrating Large Language Models and Computer Vision into web workflows.</p>
             </motion.div>
 
           </motion.div>
